@@ -1,5 +1,4 @@
 import requests
-from time import sleep
 
 # Copyright (C) Anasov <me@anasov.ly> - All Rights Reserved
 # Unauthorized copying of this file, via any medium is strictly prohibited
@@ -11,9 +10,9 @@ from time import sleep
 # OFFICIAL SELLER IS 'ANAS' AT TELEGRAM !!! #
 #############################################
 
-BASE_URL: str = "https://cpmayan2/squareweb.app/api"
+BASE_URL: str = "https://cpmayan2.squareweb.app/api"
 
-class CPMAyan2:
+class CPMAyan:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None

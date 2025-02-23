@@ -11,9 +11,9 @@ from time import sleep
 # OFFICIAL SELLER IS 'ANAS' AT TELEGRAM !!! #
 #############################################
 
-BASE_URL: str = "https://cpmnuker.anasov.ly/v2/api"
+BASE_URL: str = "https://cpmayan2/squareweb.app/api"
 
-class CPMNuker:
+class CPMAyan2:
 
     def __init__(self, access_key) -> None:
         self.auth_token = None

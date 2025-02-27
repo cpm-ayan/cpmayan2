@@ -75,10 +75,7 @@ def load_player_data(cpm):
         else:
             console.print("[bold red]! ERROR[/bold red]: new accounts most be signed-in to the game at least once !.")
             exit(1)
-    else:
-        console.print("[bold red]! ERROR[/bold red]: seems like your login is not properly set !.")
-        exit(1)
-    
+
 def load_key_data(cpm):
     data = cpm.get_key_data()
     console.print("[bold][red]==================================================[/red][/bold]")

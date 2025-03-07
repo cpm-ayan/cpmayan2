@@ -3,7 +3,7 @@ from time import sleep
 import os, signal, sys
 from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
-from cpmtooldev91 import CPMTooldevz
+from cpmtooldevz import CPMTooldevz
 
 __CHANNEL_USERNAME__ = "Telmunn"
 __GROUP_USERNAME__   = "Telmn"

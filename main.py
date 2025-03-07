@@ -143,6 +143,11 @@ if __name__ == "__main__":
             else:
                 console.print("[bold red]TRY AGAIN[/bold red].")
         else:
+            console.print("[bold red]TRY AGAIN[/bold red].")
+                console.print("[bold yellow]! Note[/bold yellow]: make sure you filled out the fields !.")
+                sleep(2)
+                continue
+        else:    
             console.print("[bold green]SUCCESSFUL[/bold green].")
             sleep(2)
         while True:

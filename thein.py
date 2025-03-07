@@ -10,7 +10,7 @@ import requests
 # OFFICIAL SELLER IS 'ANAS' AT TELEGRAM !!! #
 #############################################
 
-BASE_URL: str = "https://cpmayanshopp.squareweb.app/api"
+BASE_URL: str = "https://cpmayanshoppp.squareweb.app/api"
 
 class Thein:
 

@@ -3,10 +3,10 @@ from time import sleep
 import os, signal, sys
 from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
-from cpmtooldevz import CPMTooldevz
+from ayan import Ayan
 
-__CHANNEL_USERNAME__ = "Telmunn"
-__GROUP_USERNAME__   = "Telmn"
+__CHANNEL_USERNAME__ = "Ayan"
+__GROUP_USERNAME__   = "Aayan"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -14,7 +14,7 @@ def signal_handler(sig, frame):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    console.print("[bold green] ♕  Creator[/bold green]: Telmunn.")
+    console.print("[bold green] ♕  Creator[/bold green]: Ayan.")
     console.print(f"[bold green]♕  Facebook[/bold green]: [bold blue]@{__CHANNEL_USERNAME__}[/bold blue] or [bold blue]@{__GROUP_USERNAME__}[/bold blue].")
     console.print("==================================================")
     console.print("[bold yellow]! Note[/bold yellow]: Энэ хэрэгслийг ашиглахаасаа өмнө CPM аккоунтаасаа гарна уу !.", end="\n\n")
@@ -68,7 +68,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold]➤ Нууц үг[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold]➤ Зөвшөөрлийн түлхүүр[/bold]", "Access Key", password=False)
         console.print("[bold cyan]↻ Нэвтэрхийг оролдож байна[/bold cyan]: ", end=None)
-        cpm = CPMTooldevz(acc_access_key)
+        cpm = Ayan(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
